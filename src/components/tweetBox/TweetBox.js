@@ -13,7 +13,7 @@ const TweetBox = () => {
       displayName: "Anas Bajjouk",
       username: "@anasbajjouk",
       verified: true,
-      timestamp: new Date(Date.now()).toLocaleString(),
+      timestamp: Date.now(),
       text: tweetMessage,
       gif: tweetImage,
       avatar:

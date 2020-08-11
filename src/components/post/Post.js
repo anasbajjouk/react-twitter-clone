@@ -35,7 +35,7 @@ const Post = forwardRef(
               <p>{text}</p>
             </div>
           </div>
-          <img src={gif} alt="gif" />
+          {gif.length > 1 && <img src={gif} alt="gif" />}
           <div className="post__footer">
             <ChatBubbleOutlineIcon fontSize="small" />
             <RepeatIcon fontSize="small" />
